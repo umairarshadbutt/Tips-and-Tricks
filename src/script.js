@@ -60,3 +60,9 @@ console.log("array.slice(-2): ",array.slice(-2));//[8, 9]
 console.log("array.slice(-3): ",array.slice(-3));//[7, 8, 9]
 
 
+
+
+//9. Truncating an Array
+console.log("\nTruncating an Array");
+array.length=4;
+console.log("Array after Truncating: ", array)
