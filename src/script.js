@@ -7,3 +7,9 @@ console.log("The result will be true: "+isTrue);
 console.log("Type of true is: ", typeof true);
 
 
+//Converting to String
+console.log("\nConverting to String")
+const value = 1 + "";
+
+console.log("Value ofter converting to string: "+value);
+console.log("Tpe of value is: ", typeof value);
