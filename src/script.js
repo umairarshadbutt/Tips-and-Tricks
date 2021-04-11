@@ -12,4 +12,13 @@ console.log("\nConverting to String")
 const value = 1 + "";
 
 console.log("Value ofter converting to string: "+value);
-console.log("Tpe of value is: ", typeof value);
+console.log("Type of value is: ", typeof value);
+
+//Converting a string into a number
+console.log("\nConverting a string into a number")
+let int = "10";
+int = +int
+console.log("Value of int: "+ int);
+console.log("Type of value is: ", int);
+console.log("+true to number: " + +true);
+console.log("+false to number: " + +false)
