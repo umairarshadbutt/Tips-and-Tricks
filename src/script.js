@@ -21,4 +21,9 @@ int = +int
 console.log("Value of int: "+ int);
 console.log("Type of value is: ", int);
 console.log("+true to number: " + +true);
-console.log("+false to number: " + +false)
+console.log("+false to number: " + +false); 
+
+//Quick Powers
+console.log("\nQuick Powers")
+console.log("2 ** 3: "+ 2 ** 3);
+console.log("Math.pow(2,3): ", Math.pow(2,3));
