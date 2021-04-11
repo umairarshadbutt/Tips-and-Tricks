@@ -42,5 +42,15 @@ const hasSameElements = (a, b) => {
 console.log("hasSameElements([1,2],[2,3]): ", hasSameElements([1,2],[2,3]));//false
 console.log("hasSameElements([1,2],[1,2]): ", hasSameElements([1,2],[1,2]));//true
 
+//7. Empty and non-empty values
+console.log("\nEmpty and non-empty values");
+const arr = [0,1,2,null,undefined,"",false];
+const nonEmptyValues = arr.filter(Boolean);
+const hasEmptyValues = arr.some(Boolean);
+const hasEmptyEveryValues = arr.every(Boolean);
+console.log("nonEmptyValues: ", nonEmptyValues);
+console.log("hasEmptyValues: ", hasEmptyValues);
+console.log("hasEmptyEveryValues: ", hasEmptyEveryValues);
+
 
 
