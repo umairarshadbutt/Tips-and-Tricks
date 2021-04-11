@@ -27,3 +27,9 @@ console.log("+false to number: " + +false);
 console.log("\nQuick Powers")
 console.log("2 ** 3: "+ 2 ** 3);
 console.log("Math.pow(2,3): ", Math.pow(2,3));
+
+//Quick Float to Integer Conversion
+console.log("\nQuick Float to Integer Conversion")
+console.log("24.9 | 0: ", 24.9 | 0);//24
+console.log("-24.9 | 0: ", -24.9 | 0);//24
+console.log("27433/100 | 0: ", 27433/100 | 0);//274
