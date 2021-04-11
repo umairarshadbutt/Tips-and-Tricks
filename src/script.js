@@ -1,4 +1,4 @@
-let startAt = performance.now();
+// let startAt = performance.now();
 //1. Converting to Boolean
 console.log("Converting to Boolean")
 const isTrue = !0;
@@ -69,7 +69,9 @@ array = array.slice(0,4);
 console.log("Array after Truncating: ", array);// [ 1, 2, 3, 4 ]
 
 
-//9.   Checking the performance
-console.log("\nTruncating an Array");
-let endAt = performance.now();
-console.log("Performance time for runinning the all tricks is ", endAt-startAt, " miliseconds")
+//10.   Checking the performance
+
+//Rmove the comments from line number 1 and following lines. after that you can check the perfomance in a browser
+// console.log("\nTruncating an Array");
+// let endAt = performance.now();
+// console.log("Performance time for runinning the all tricks is ", endAt-startAt, " miliseconds")
