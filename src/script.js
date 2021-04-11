@@ -52,5 +52,11 @@ console.log("nonEmptyValues: ", nonEmptyValues);
 console.log("hasEmptyValues: ", hasEmptyValues);
 console.log("hasEmptyEveryValues: ", hasEmptyEveryValues);
 
+//8. Getting your Last Item(s) in an Array
+console.log("\nGetting your Last Item(s) in an Array");
+let array = [1, 2, 3, 4 ,5 ,6 ,7, 8, 9];
+console.log("array.slice(-1): ",array.slice(-1));//[9]
+console.log("array.slice(-2): ",array.slice(-2));//[8, 9]
+console.log("array.slice(-3): ",array.slice(-3));//[7, 8, 9]
 
 
