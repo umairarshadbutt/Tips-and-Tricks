@@ -9,8 +9,9 @@
 
 </div>
 <p align="center">Being a developer, your life becomes pretty complex when it comes to learning new things, especially in JavaScript. There’s no need to worry as we are here to make things simpler for you through our 10 JavaScript tips & tricks. Not only will you find these 10 JavaScript tips & tricks handy but also practical and advantageous while coding using JavaScript.</p>
-<p align="center">Read the article [10 JavaScript Tips & Tricks That Will Make You a Better Developer](https://www.microverse.org/blog/10-javascript-tips-make-you-a-better-developer)</p>
 
+## Read the article
+- [10 JavaScript Tips & Tricks That Will Make You a Better Developer](https://www.microverse.org/blog/10-javascript-tips-make-you-a-better-developer)
 ## Built With
 
 - Javascript
